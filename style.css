@@ -21,8 +21,12 @@ body {
 
 }
 
-.cabecalho-lita-item{
+.cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
     font-size: 16px;
+}
+
+.sobre_nos-imagem{
+    width: 20%;
 }
