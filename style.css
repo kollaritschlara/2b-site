@@ -1,92 +1,108 @@
 *{
     margin: 0;
     padding: 0;
-
 }
-body {
+body{
     font-family: 'Poppins', sans-serif;
-
 }
-.cabecalho {
-    background-color: #3B0050;
+.cabecalho{
+    background-color: #003399;
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     padding: 24px 0;
 }
 
 .cabecalho-imagem{
     width: 10%;
-
 }
 
 .cabecalho-lista-item{
     display: inline-block;
     margin: 0 16px;
-    font-size: 16px;
-}    
+    font-size: 25px;
+}
 
-.sobre_corinthians{
-    background-image: linear-gradient(#3B0050,#3b00501f);
-    color:#FFFFFF;
+.sobre_nos{
+    background-image: linear-gradient(#003399, #3b00501f);
+    color: #FFFFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 24px 0;
 }
 
-.sobre_corinthians-conteudo{
-    width:650px;
+.sobre_nos-div-conteudo{
+    width: 650px;
 }
 
-.
-
-.sobre_corinthians-imagem{
-    width: 20%;
+.sobre-nos-titulo{
+    padding: 5px 0;
+    text-align: center;
+    font-size: 60px;
 }
 
-.lojas{
+.sobre_nos-texto-um{
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.sobre_nos-texto-dois{
+    font-size: 22px;
+}
+
+.sobre_nos-imagem{
+    width: 25%;
+}
+
+/* seção membros*/
+.membros{
     background-color: #a9a9a9;
 }
 
-.lojas-titulo{
+.membros-titulo{
 color: #3B0050;
 text-align: center;
 padding: 50px;
 font-size: 45px;
 }
 
-.lojas-todosestados-div{
+.membros-geral-div{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
-.loja-estado{
+
+.membros-pessoal{
     text-align: center;
-   
+    display: block;
+    padding: 5px 0;
 }
 
-.lojas-estado-img{
-    width: 20px;
+.membros-imagem{
+    width: 300px;
 }
-.lojas-estado-nome{
-    font-weight: 100;
+
+.membros-oficial{
+    font-size: 23px;
+    font-weight: 600;
     text-decoration: underline;
-    color: #FFFFFF;
+    color: #000000;
+    padding: 15px 0;
 }
-.lojas-estado-nome:hover{
+
+.membros-icones-link:hover{
     font-weight: 100;
     text-decoration: underline;
     color: orange;
 }
-.lojas-estado-icone{
+
+.membros-icones-link{
     width: 30px;
     padding: 5px 0 10px 0;
 }
-.lojas-estado-icone:hover{
+
+.membros-icones-link:hover{
     width: 35px;
     padding: 5px 0;
-}
-orinthians.png
-font-size: 45px;
 }
