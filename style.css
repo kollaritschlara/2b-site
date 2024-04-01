@@ -57,33 +57,33 @@ body{
 }
 
 /* seção membros*/
-.membros{
+.jogadores{
     background-color: #a9a9a9;
 }
 
-.membros-titulo{
+.jogadores-titulo{
 color: #3B0050;
 text-align: center;
 padding: 50px;
 font-size: 45px;
 }
 
-.membros-geral-div{
+.jogadores-geral-div{
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-.membros-pessoal{
+.jogadores-pessoal{
     text-align: center;
     display: block;
     padding: 5px 0;
 }
 
-.membros-imagem{
+.jogador-imagem{
     width: 300px;
 }
 
-.membros-oficial{
+.jogadores-oficial{
     font-size: 23px;
     font-weight: 600;
     text-decoration: underline;
@@ -91,7 +91,7 @@ font-size: 45px;
     padding: 15px 0;
 }
 
-.membros-icones-link:hover{
+.jogadores-icones-link:hover{
     font-weight: 100;
     text-decoration: underline;
     color: orange;
